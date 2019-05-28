@@ -24,6 +24,11 @@ import org.apache.ibatis.cursor.Cursor;
 import org.apache.ibatis.executor.BatchResult;
 
 /**
+ * MyBatis工作的主要顶层API，表示和数据库交互的会话，完成必要数据库增删改查功能
+ *
+ */
+
+/**
  * The primary Java interface for working with MyBatis.
  * Through this interface you can execute commands, get mappers and manage transactions.
  *

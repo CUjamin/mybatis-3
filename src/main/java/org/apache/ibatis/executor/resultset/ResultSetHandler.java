@@ -23,6 +23,10 @@ import java.util.List;
 import org.apache.ibatis.cursor.Cursor;
 
 /**
+ * 负责将JDBC返回的ResultSet结果集对象转换成List类型的集合；
+ */
+
+/**
  * @author Clinton Begin
  */
 public interface ResultSetHandler {
